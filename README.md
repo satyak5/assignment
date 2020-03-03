@@ -27,10 +27,10 @@ Testing the Deployment
  
 	> sudo apt-get install kafkacat
 
-	> kafkacat -P -b kafka-1:19092 -t hello
+	> kafkacat -P -b kafka-1:19092 -t hello  /  kafkacat -P -b <HOST_NAME>:19092 -t hello
 	
  open a new terminal and run the below commands
 	
-	> kafkacat -C -b kafka-2:29092 -t hello
+	> kafkacat -C -b kafka-2:29092 -t hello  /  kafkacat -C -b <HOST_NAME>:29092 -t hello
 	
  Now, type few messages in the previous terminal and you could see them on the 2nd Terminal
