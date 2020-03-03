@@ -1,5 +1,5 @@
-# assignment
-Docker-compose file for Kafka-Zookeper Cluster.
+# Assignment
+Docker-compose file for Kafka-Zookeper Cluster with Persistant Volume for Data and Logs on the VM.
 
 Installing docker and docker-compose tools on the Ubuntu VM
 
